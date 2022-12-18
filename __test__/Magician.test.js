@@ -1,7 +1,7 @@
 import Magician from '../src/Magician';
 
 test('should make new Magician', () => {
-  const realMagician = new Magician({ name: 'Max', type: 'Magician' });
+  const realMagician = new Magician('Max');
   const expectedMagician = {
     name: 'Max',
     type: 'Magician',

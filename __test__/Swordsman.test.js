@@ -1,7 +1,7 @@
 import Swordsman from '../src/Swordsman';
 
 test('should make new Swordsman', () => {
-  const realSwordsman = new Swordsman({ name: 'Ben', type: 'Swordsman' });
+  const realSwordsman = new Swordsman('Ben');
   const expectedSwordsman = {
     name: 'Ben',
     type: 'Swordsman',

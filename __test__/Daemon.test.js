@@ -1,7 +1,7 @@
 import Daemon from '../src/Daemon';
 
 test('should make new Daemon', () => {
-  const realDaemon = new Daemon({ name: 'Andres', type: 'Daemon' });
+  const realDaemon = new Daemon('Andres');
   const expectedDaemon = {
     name: 'Andres',
     type: 'Daemon',

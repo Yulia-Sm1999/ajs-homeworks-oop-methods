@@ -1,7 +1,7 @@
 import Undead from '../src/Undead';
 
 test('should make new Undead', () => {
-  const realUndead = new Undead({ name: 'Lex', type: 'Undead' });
+  const realUndead = new Undead('Lex');
   const expectedUndead = {
     name: 'Lex',
     type: 'Undead',
